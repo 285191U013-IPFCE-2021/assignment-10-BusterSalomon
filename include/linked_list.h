@@ -15,6 +15,7 @@ node *map (node * p, int (*f) (int));
 int square (int x);
 
 /* terminal node at the end of the list */
-static node SENTINEL_node = { 0, 0 };
+// Changed from static node SENTINAL_node = {0, 0} to a pointer to NULL
+
 
 #endif // LINKED_LIST_H
